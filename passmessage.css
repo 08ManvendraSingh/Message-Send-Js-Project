@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: mediumpurple;
+}
+.mesbx{
+	min-width: 35%;
+	min-height: 20rem;
+	background-color: whitesmoke;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+}
+.mesbx h2{
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+#input{
+	max-width: 80%;
+	height: 2rem;
+	outline: none;
+	margin-top: 2rem;
+}
+.mesbx button{
+	min-width: 18%;
+	height: 2.5rem;
+	text-align: center;
+	background-color: mediumpurple;
+	margin-top: 1rem;
+	border: none;
+	font-size: 1rem;
+}
+.mesbx h3{
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+}
+#output{
+	max-width: 80%;
+	height: 2rem;
+	color: mediumpurple;
+	margin-top: 1.5rem;
+	background-color: whitesmoke;
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+}
